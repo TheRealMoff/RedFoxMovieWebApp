@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+
+body{
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	background: url('background2.jpg');
+	background-size: cover;
+}
+
+.container{
+	max-width: 700px;
+	width: 100%;
+	background: #fff;
+	padding: 25px 30px;
+	border-radius: 5px;
+}
+
+.container .title{
+	font-size: 25px;
+	font-weight: 500;
+	position: relative;
+}
+.container form .SubscriberDetails{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px 0 12px 0;
+}
+
+form .SubscriberDetails .input-box{
+	margin-bottom: 15px;
+	width: calc(100% / 2 - 20px);
+}
+
+.SubscriberDetails .input-box .details{
+	display:block;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.SubscriberDetails .input-box input{
+	height: 45px;
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	border:1px solid #ccc;
+	padding-left: 15px;
+	font-size: 16px;
+	transition: all 0.3s ease;
+}
+
+form .buttonREG{
+	height: 45px;
+	margin: 45px 0;
+}
+
+form .buttonREG input{
+	height: 100%;
+	width: 100%;
+	outline: none;
+	color: #fff;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	background: #808080;
+}

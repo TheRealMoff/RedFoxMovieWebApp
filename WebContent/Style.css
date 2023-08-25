@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+body{
+	background:url('background1.jpg');
+	background-size:cover;
+	margin:0;
+	padding:0;
+	font-family:Arial;
+}
+
+.nav{
+	overflow:hidden;
+	background:#ff0000;
+	margin-top:-5px;
+}
+
+.nav a{
+	float:right;
+	color:#000;
+	text-align: center;
+	padding: 20px 16px;
+	font-size:14px;
+	width:100px;
+	text-decoration:none;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.nav a:hover{
+	background: #b10c2d;
+	color:#fff;
+}
+
